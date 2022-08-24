@@ -1,4 +1,4 @@
-module.exports = function isFromBellville(numberPlate) {
+export default function isFromBellville(numberPlate) {
     if ( numberPlate.startsWith('CY'))
         return true;
    else 
